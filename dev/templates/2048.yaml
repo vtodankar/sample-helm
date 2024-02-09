@@ -68,7 +68,7 @@ metadata:
     {{- toYaml .Values.labels | nindent 4 }}
 spec:
   ports:
-    - port: 80
+    - port: 81
       targetPort: 80
       protocol: TCP
   type: NodePort
