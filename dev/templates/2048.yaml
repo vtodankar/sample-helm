@@ -61,7 +61,6 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: tenant1
   name: service-2048
   labels:
     app: "2048"
@@ -78,7 +77,6 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  namespace: tenant1
   name: ingress-2048
   labels:
     app: "2048"
